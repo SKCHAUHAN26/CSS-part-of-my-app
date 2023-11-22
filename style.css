@@ -1,0 +1,184 @@
+body{
+   
+background-color: #000000;
+
+}
+.logo{
+    height: 140px;
+    width: 400px;
+    color: #000000;
+    border: 4px solid;
+    background-image:url("image/logo.png");
+    background-size: cover;
+}
+.logo:hover{
+    border-color: rgb(225, 0, 255);
+   border-radius: 50rem;
+    transition: 0.4s;   
+}
+.search{
+    padding-top:30px;
+    height: 60px;
+    padding-left: 370px;
+    
+}
+.bar{
+    color: aliceblue;
+   margin-right: 100px;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bar:hover{
+color: rgb(225, 0, 255);
+transition: 0.7s;
+font-size: larger;
+}
+.bar1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    margin-right: 5px;
+}
+.bar1:hover{
+    color: rgb(225, 0, 255);
+    transition: 0.7s;
+    }
+
+#SER{
+border: 10px ;
+border-radius: 50rem;
+
+height: 50px;
+width: 300px;
+padding-left: 1rem;
+text-align: center;
+}
+#SER:hover{
+    font-size: larger;
+    font-weight: 200;
+    width: 400px;
+    transition-duration: 1s;
+   
+}
+
+#find{
+    border: 10px;
+border-radius: 50rem;
+margin-left: 10px;
+height: 50px;
+width: 50px;
+background-color: rgb(225, 0, 255);
+
+}
+#find:hover{
+    transition: 0.5s;
+    width: 80px;
+    font-size: larger;
+}
+#find:active{
+    background-color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#photo{
+   margin-top: 40px;
+    height: 70px;
+    width: 800px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+   border: 2px solid rgb(6, 5, 5);
+   border-radius: 50rem;
+   color: aliceblue;
+ font-size: 20px;
+ 
+}
+#saurav{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: x-large;
+   
+}
+#saurav:active{
+color:  rgb(225, 0, 255);
+transition-duration: 0.2s;
+font-size: large;
+}
+
+#photo:hover{
+border-color: rgb(225, 0, 255);
+transition: 0.8s;
+}
+#profile{
+    border: 10px;
+    border-radius: 50rem;
+    margin-right: 20px;
+    margin-left: 4px;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(225, 0, 255);
+    background-image: url(image/saurav.jpg);
+   
+
+}
+#profile:active{
+    border-color: rgb(225, 0, 255);
+}
+#follow{
+    background-color: aliceblue;
+    height: 40px;
+    width: 80px;
+    border: 40px;
+    border-radius: 50rem;
+   margin-left: 300px;
+   font-weight: 200;
+   color: aliceblue;
+   background-color: #000000;
+   box-shadow:  rgb(225, 0, 255);
+   background-color: rgb(225, 0, 255);
+
+}
+#follow:active{
+    width: 100px;
+    transition: 0.2s;
+   background-color: #000000;
+   color: aliceblue;
+   border-color: rgb(225, 0, 255);
+
+}
+.post1{
+   margin-top: 5px;
+    height: 800px;
+    width: 800px;
+    margin-left: 350px;
+background-image: url(image/post12.jpg);
+background-size: cover;
+}
+.heart{
+margin-left: 370px;
+margin-top: 20px;
+    position: relative;
+    height: 40px;
+width: 25px;
+background: rgb(236, 4, 4);
+border-radius: 200px 200px 0 0;
+transform: rotate(45deg);
+
+}
+.heart::before{
+    content: " ";
+    position: absolute;
+    background: rgb(255, 0, 0);
+    height: 40px;
+    width: 25px;
+background: rgb(253, 0, 0);
+border-radius: 200px 200px 0 0;
+transform: rotate(-90deg);
+left: -7.5px;
+top: 7.5px;
+}
+
+
